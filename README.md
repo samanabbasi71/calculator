@@ -1,6 +1,6 @@
 # simple react calculator
 Calculator built with React.js
-(https://raw.githubusercontent.com/samanabbasi71/calculator/main/design-inspiration.jpeg)
+![Inspiration Design](https://raw.githubusercontent.com/samanabbasi71/calculator/main/design-inspiration.jpeg)
 
 ### Demo
 

@@ -18,8 +18,8 @@ Saman Abbasi
 ### Installation
 
 ```bash
-git clone https://github.com/TattyFromMelbourne/react-calculator
-cd react-calculator
+git clone https://github.com/samanabbasi71/calculator
+cd calculator
 npm install
 ```
 

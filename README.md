@@ -4,7 +4,7 @@ Calculator built with React.js
 
 ### Demo
 
-[https://samanabbasi71.github.io/calculator/](https://samanabbasi71.github.io/calculator/)
+[https://react-calculator-saman.netlify.app](https://react-calculator-saman.netlify.app)
 
 ### Author
 

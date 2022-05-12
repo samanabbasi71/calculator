@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+.calculator {
+  height: max-content;
+  background: linear-gradient(45deg, #00275e, #4444b9);
+  border-radius: 20px;
+  padding: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 4rem);
+  grid-template-rows: minmax(6rem, auto) repeat(6, 4rem);
+  grid-gap: 15px;
+}
+.result-container {
+  grid-column: span 4;
+  grid-row: span 2;
+  color: #fff;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.prev-operand {
+  text-align: end;
+  font-size: 40px;
+}
+.curr-operand {
+  text-align: end;
+  font-size: 70px;
+}
+.grid-item {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.numbers:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+}
+.cal {
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(to bottom, #fb742c, #7d2c00);
+}
+.cal:hover {
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(to bottom, #FF8E53, #fa6414);
+}
+.clear {
+  background: #fff;
+  color: red;
+}
+.clear:hover {
+  color: #fff;
+  background: linear-gradient(to bottom, #fc2424, #4f0000);
+}
+.delete {
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+  font-size: 20px;
+}
+.equal {
+  background: linear-gradient(to bottom, #fc2424, #4f0000);
+  border-radius: 20px;
+  grid-row: span 2;
+}
+.equal:hover {
+  background: red;
+  border-radius: 20px;
+}

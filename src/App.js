@@ -49,12 +49,17 @@ const reducer = (state, {type, payload}) => {
       if(state.prevOperand == null) {
         return {
           ...state,
-          operation: payload.operation === 'x' ? '*' : payload.operation,
+          operation: payload.operation,
           prevOperand: state.currentOperand,
           currentOperand: null,
         }
       }
-      return state
+      return {
+        ...state,
+        prevOperand: evaluate(state),
+        operation: payload.operation,
+        currentOperand: null
+      }
     case ACTIONS.EVALUATE: 
       if(state.prevOperand == null || state.currentOperand == null || state.operation == null) {
         return state
@@ -141,7 +146,7 @@ function App() {
       <div className="calculator">
         <div className='grid-container'>
         <div className='result-container'>
-            <div className='prev-operand'>{formatOperand(prevOperand)}{operation}</div>
+            <div className='prev-operand'>{formatOperand(prevOperand)}{operation === 'x' ? '*' : operation}</div>
             <div className='curr-operand'>{formatOperand(currentOperand)}</div>
         </div>
           <button className='grid-item cal clear' onClick={() => dispatch({type: ACTIONS.CLEAR})}>

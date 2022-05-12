@@ -1,10 +1,14 @@
 # simple react calculator
 Calculator built with React.js
-![Inspiration Design](https://raw.githubusercontent.com/samanabbasi71/calculator/main/design-inspiration.jpeg)
 
-### Demo
+
+### Live Demo
 
 [https://react-calculator-saman.netlify.app](https://react-calculator-saman.netlify.app)
+
+### Screen Shot
+![Inspiration Design](https://raw.githubusercontent.com/samanabbasi71/calculator/main/design-inspiration.jpeg)
+
 
 ### Author
 

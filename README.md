@@ -1,7 +1,7 @@
 # simple react calculator
 Calculator built with React.js
 
-|![Work Samples #1](https://raw.githubusercontent.com/samanabbasi71/react-native-collections/main/Simulator%20Screen%20Recording%20-%20iPhone%2012%20-%202021-10-30%20at%2015.55.38.gif)
+|![Work Samples #1](https://raw.githubusercontent.com/samanabbasi71/calculator/main/design-inspiration.jpeg)
 
 ### Demo
 
